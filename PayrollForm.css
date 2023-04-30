@@ -4,7 +4,7 @@ height: 100%;
 }
 
 .header {
-    padding: 15px 0;
+    padding: 10px 0;
     background-color: antiquewhite;
 }
 
@@ -13,7 +13,7 @@ height: 100%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 0px solid green;
+    border: 0px solid rgb(42, 2, 94);
 }
 
 .logo-content {
@@ -30,7 +30,7 @@ height: 100%;
 
 .emp-text {
     font-style: normal 20px/25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     letter-spacing: 0px;
     color: green;
     text-transform: capitalize;
@@ -45,16 +45,16 @@ height: 100%;
 }
 
 .form-content {
-    min-height: calc(100%-80px);
+    min-height: calc(100%-50px);
     background-color: beige;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0px solid green;
+    border: 0px solid rgb(76, 7, 189);
 }
 
 .form {
-    width: 65%;
+    width: 100%;
     padding: 44px 60px;
     background: whitesmoke 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px grey;
@@ -64,9 +64,9 @@ height: 100%;
 }
 
 .form-head {
-    font: normal normal bold 24px/37px Roboto;
+    font: normal normal bold 30px/50px Roboto;
     letter-spacing: 0px;
-    color: black;
+    color: rgb(147, 2, 243);
     text-transform: capitalize;
     opacity: 1;
     padding-bottom: 20px;
@@ -90,7 +90,7 @@ label {
 }
 
 .text {
-    font-size: 16px;
+    font-size: 100px;
     color: rgb(10, 0, 0);
     opacity: 1;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -102,4 +102,21 @@ label {
     border: 1px solid rgb(37, 33, 33);
     border-radius: 4px;
     resize: vertical;
+}
+
+.profile-radio-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-radio-content > label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile {
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 12px;
 }
