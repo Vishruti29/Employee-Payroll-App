@@ -121,7 +121,15 @@ label {
     margin-left: 12px;
 }
 
-.date {
-    font-size: medium;
-    color: rgb(10, 0, 0);
+
+select {
+    padding: 10px;
+    border-spacing: 2cm;
+    border: solid 1px grey;
+    border-radius: 4px;
+    resize: vertical;
+    font: normal normal normal 16px Roboto;
+    letter-spacing: 0ox;
+    color: black;
+    background-color: transparent;
 }
