@@ -124,7 +124,7 @@ label {
 
 select {
     padding: 10px;
-    border-spacing: 2cm;
+    border-spacing: 4cm;
     border: solid 1px grey;
     border-radius: 4px;
     resize: vertical;
@@ -158,19 +158,19 @@ select {
 
 .submitButton {
     border: none;
-    background-color: rgb(96, 158, 4);
+    background-color: #609e04;
     margin-right: 30px;
 }
 
 .cancelButton {
     text-decoration: none;
     text-align: center;
-    background-color: rgb(245, 241, 5);
+    background-color: #f5f105;
 }
 
 .resetButton {
     border: none;   
-    background-color: rgb(7, 196, 243);
+    background-color: #07c4f3;
     margin-right: 30px;
 }
 
