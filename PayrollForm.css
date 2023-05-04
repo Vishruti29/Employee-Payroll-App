@@ -5,7 +5,7 @@ height: 100%;
 
 .header {
     padding: 10px 0;
-    background-color: antiquewhite;
+    background-color: hwb(34 84% 2%);
 }
 
 .header-content {
@@ -13,63 +13,65 @@ height: 100%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 0px solid rgb(42, 2, 94);
+    border: 0px solid #2a025e;
 }
 
 .logo-content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border: 0px solid green;
-    width: 80%;
-}
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border: øpx solid green;
+        width: 80%;
+        }
 
-.logo-content-img {
-    border: solid 0px darkblue;
+.img {
+    border: solid 0px #00008b;
+    margin-left: 35px;
 }
 
 .emp-text {
-    font-style: normal 20px/25px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal 10px/20px;
+    font-family: Roboto;
     letter-spacing: 0px;
-    color: green;
+    color: #008000;
     text-transform: capitalize;
 }
 
 .emp-payroll {
-    color: darkblue;
+    color: #00008b;
 }
 
 * {
     box-sizing: border-box;
+    margin-left: 3px;
 }
 
 .form-content {
-    min-height: calc(100%-50px);
-    background-color: beige;
+    min-height: calc(100%-20px);
+    background-color: rgb(245, 245, 220);
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0px solid rgb(76, 7, 189);
+    border: 0px solid #4c07bd;
 }
 
 .form {
-    width: 100%;
-    padding: 44px 60px;
+    width: 75%;
+    padding: 10px 10px;
     background: whitesmoke 0% 0% no-repeat padding-box;
-    box-shadow: 0px 3px 6px grey;
-    border: 1px solid rgb(34, 33, 33);
+    box-shadow: 0px 3px 6px rgb(128, 128, 128);
+    border: 1px solid #222121;
     border-radius: 8px;
     opacity: 1;
 }
 
 .form-head {
-    font: normal normal bold 30px/50px Roboto;
+    font: normal normal bold 20px/20px Roboto;
     letter-spacing: 0px;
-    color: rgb(147, 2, 243);
+    color: hwb(276 1% 5%);
     text-transform: capitalize;
     opacity: 1;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .row-content {
@@ -77,6 +79,7 @@ height: 100%;
     flex-direction: row;
     margin-bottom: 10px;
     align-items: center;
+    margin: 10px 10px 10px;
     border: 0ox solid rgb(2, 92, 2);
 }
 
@@ -85,7 +88,7 @@ height: 100%;
 }
 
 label {
-    padding: 12px 12px 12px 0;
+    padding: 10px 10px 10px 0;
     display: inline-block;
 }
 
@@ -93,16 +96,22 @@ label {
     font-size: 10px;
     color: rgb(10, 0, 0);
     opacity: 1;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto;
 }
 
 .input {
     width: 100%;
-    padding: 12px;
-    border: 1px solid rgb(37, 33, 33);
+    padding: 10px;
+    border: 1px solid #252121;
     border-radius: 4px;
     resize: vertical;
 }
+
+.error-output {
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+  }
 
 .profile-radio-content {
     display: flex;
@@ -116,17 +125,17 @@ label {
 }
 
 .profile {
-    width: 40px;
+    width: 30px;
     border-radius: 50%;
-    margin-left: 12px;
+    margin-left: 10px;
 }
 
 
 select {
     padding: 10px;
-    border-spacing: 4cm;
+    border-spacing: 5px;
     border: solid 1px grey;
-    border-radius: 4px;
+    border-radius: 10px;
     resize: vertical;
     font: normal normal normal 16px Roboto;
     letter-spacing: 0ox;
