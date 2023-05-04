@@ -38,7 +38,12 @@ class EmployeePayroll {
   
     // Setters
     set name(name) {
+      let nameRegex = RegExp("^[A-Z]{1}[a-z]{3,}$");
+    if (nameRegex.test(name)) {
       this._name = name;
+    } else {
+      throw "Invalid name format!";
+    }
     }
   
     set id(id) {
@@ -67,5 +72,29 @@ class EmployeePayroll {
   
     set profilePic(profilePic) {
       this._profilePic = profilePic;
+    }
+
+    toString() {
+      const options = { year:'numeric',month:'long',day:'numeric'};
+      const empDate = !this.startDate ? "undefined":
+                      this.startDate.toLocaleDateString("en-US",options);
+      return (
+        "Name: " +
+        this.name +
+        ", ID: " +
+        this.id +
+        ", Salary: " +
+        this.salary +
+        ", Start Date: " +
+        this.startDate +
+        ", Department: " +
+        this.department +
+        ", Gender: " +
+        this.gender +
+        ", Notes: " +
+        this.notes +
+        ", Profile Pic: " +
+        this.profilePic
+      );
     }
   }
