@@ -107,12 +107,6 @@ label {
     resize: vertical;
 }
 
-.error-output {
-    font-size: 12px;
-    font-style: italic;
-    color: red;
-  }
-
 .profile-radio-content {
     display: flex;
     flex-direction: row;
@@ -222,3 +216,11 @@ select {
     align-items: flex-start;
 }
 }
+
+error-output {
+    font-size: 12px;
+    margin-left: 10px;
+    font-style: italic;
+    color: red;
+  }
+
